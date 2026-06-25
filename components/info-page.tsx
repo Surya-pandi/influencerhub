@@ -32,8 +32,8 @@ export function InfoPage({
           {cards.map((card) => {
             const Icon = card.icon;
             return (
-              <article key={card.title} className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
-                <span className="grid h-12 w-12 place-items-center rounded-md bg-pink-50 text-magenta">
+              <article key={card.title} className="min-w-0 rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+                <span className="grid h-12 w-12 shrink-0 place-items-center rounded-md bg-pink-50 text-magenta">
                   <Icon size={21} />
                 </span>
                 <h2 className="mt-6 text-2xl font-black text-ink">{card.title}</h2>

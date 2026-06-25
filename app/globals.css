@@ -13,6 +13,12 @@
   box-sizing: border-box;
 }
 
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -51,7 +57,20 @@ button,
 input,
 select,
 textarea {
+  min-width: 0;
   font: inherit;
+}
+
+h1,
+h2,
+h3 {
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+p,
+li {
+  overflow-wrap: anywhere;
 }
 
 a,
@@ -70,6 +89,7 @@ main {
 .site-container {
   width: min(1180px, calc(100% - 32px));
   margin-inline: auto;
+  min-width: 0;
 }
 
 .glass {
@@ -302,5 +322,11 @@ article:hover,
 @media (max-width: 768px) {
   .site-container {
     width: min(100% - 24px, 560px);
+  }
+}
+
+@media (max-width: 420px) {
+  .site-container {
+    width: min(100% - 20px, 560px);
   }
 }

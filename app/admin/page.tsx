@@ -25,7 +25,7 @@ export default function AdminPage() {
         </div>
 
         <div className="mt-8 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-soft">
-          <div className="grid grid-cols-[1.2fr_.8fr_.8fr_.8fr_auto] gap-3 border-b border-slate-200 bg-slate-50 px-4 py-3 text-xs font-black uppercase tracking-[0.14em] text-slate-500">
+          <div className="hidden grid-cols-[1.2fr_.8fr_.8fr_.8fr_auto] gap-3 border-b border-slate-200 bg-slate-50 px-4 py-3 text-xs font-black uppercase tracking-[0.14em] text-slate-500 md:grid">
             <span>User</span>
             <span>Role</span>
             <span>Plan</span>

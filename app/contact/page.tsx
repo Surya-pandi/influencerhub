@@ -16,11 +16,11 @@ export default function ContactPage() {
             ].map((item) => {
               const Icon = item.icon;
               return (
-                <div key={item.label} className="flex items-center gap-4 rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
-                  <span className="grid h-11 w-11 place-items-center rounded-md bg-sky/10 text-sky">
+                <div key={item.label} className="flex min-w-0 flex-col items-start gap-3 rounded-lg border border-slate-200 bg-white p-4 shadow-sm sm:flex-row sm:items-center sm:gap-4">
+                  <span className="grid h-11 w-11 shrink-0 place-items-center rounded-md bg-sky/10 text-sky">
                     <Icon size={19} />
                   </span>
-                  <div>
+                  <div className="min-w-0">
                     <p className="text-xs font-bold uppercase tracking-[0.14em] text-slate-500">{item.label}</p>
                     <p className="font-black text-ink">{item.value}</p>
                   </div>

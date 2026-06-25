@@ -173,12 +173,12 @@ export function AuthSummary({ role }: { role?: AccountRole }) {
       {items.map((item) => {
         const Icon = item.icon;
         return (
-          <div key={item.label} className="flex items-center justify-between rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
-            <div className="flex items-center gap-3">
-              <span className="grid h-10 w-10 place-items-center rounded-md bg-pink-50 text-magenta">
+          <div key={item.label} className="flex min-w-0 flex-wrap items-center justify-between gap-3 rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
+            <div className="flex min-w-0 items-center gap-3">
+              <span className="grid h-10 w-10 shrink-0 place-items-center rounded-md bg-pink-50 text-magenta">
                 <Icon size={18} />
               </span>
-              <span className="font-black text-ink">{item.label}</span>
+              <span className="min-w-0 font-black text-ink">{item.label}</span>
             </div>
             <span className="text-sm font-bold text-slate-500">{item.value}</span>
           </div>
@@ -255,7 +255,7 @@ function SubmitButton({ loading, label, loadingLabel }: { loading: boolean; labe
       type="submit"
       disabled={loading}
       className={cn(
-        "inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-hub-gradient px-5 text-sm font-bold text-white shadow-[0_14px_32px_rgba(255,45,154,.26)] transition duration-300 hover:-translate-y-0.5 disabled:cursor-wait disabled:opacity-80",
+        "inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-md bg-hub-gradient px-5 text-sm font-bold text-white shadow-[0_14px_32px_rgba(255,45,154,.26)] transition duration-300 hover:-translate-y-0.5 disabled:cursor-wait disabled:opacity-80 sm:w-auto",
         loading && "is-click-loading pr-10",
       )}
     >

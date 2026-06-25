@@ -78,7 +78,7 @@ export function ContactForm() {
           type="submit"
           disabled={status === "sending"}
           className={cn(
-            "inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-hub-gradient px-5 text-sm font-bold text-white shadow-[0_14px_32px_rgba(255,45,154,.26)] transition duration-300 hover:-translate-y-0.5 disabled:cursor-wait disabled:opacity-80",
+            "inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-md bg-hub-gradient px-5 text-sm font-bold text-white shadow-[0_14px_32px_rgba(255,45,154,.26)] transition duration-300 hover:-translate-y-0.5 disabled:cursor-wait disabled:opacity-80 sm:w-auto",
             status === "sending" && "is-click-loading pr-10",
           )}
         >
@@ -88,12 +88,12 @@ export function ContactForm() {
         {notice ? (
           <span
             className={cn(
-              "inline-flex items-center gap-2 text-sm font-bold",
+              "inline-flex min-w-0 items-center gap-2 text-sm font-bold",
               status === "sent" ? "text-emerald-600" : status === "configuration" ? "text-amber-600" : "text-red-600",
             )}
           >
-            <CheckCircle2 size={16} />
-            {notice}
+            <CheckCircle2 size={16} className="shrink-0" />
+            <span>{notice}</span>
           </span>
         ) : null}
       </div>

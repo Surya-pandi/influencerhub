@@ -34,11 +34,11 @@ export default function DashboardPage() {
               })}
             </div>
             <div className="mt-5 rounded-lg border border-slate-200 p-4">
-              <div className="flex items-center gap-4">
+              <div className="flex min-w-0 flex-wrap items-center gap-4">
                 <span className="grid h-24 w-24 shrink-0 place-items-center rounded-md bg-slate-50 text-slate-500">
                   <Camera size={28} />
                 </span>
-                <div>
+                <div className="min-w-0">
                   <h3 className="text-xl font-black text-ink">No creator profile connected</h3>
                   <p className="text-sm font-semibold text-slate-500">Create a real Supabase influencer row to populate this area.</p>
                 </div>
@@ -51,12 +51,12 @@ export default function DashboardPage() {
               {customerTools.map((tool) => {
                 const Icon = tool.icon;
                 return (
-                  <div key={tool.label} className="flex items-center justify-between rounded-lg bg-slate-50 p-4">
-                    <div className="flex items-center gap-3">
-                      <span className="grid h-11 w-11 place-items-center rounded-md bg-white text-violet shadow-sm">
+                  <div key={tool.label} className="flex min-w-0 flex-wrap items-center justify-between gap-3 rounded-lg bg-slate-50 p-4">
+                    <div className="flex min-w-0 items-center gap-3">
+                      <span className="grid h-11 w-11 shrink-0 place-items-center rounded-md bg-white text-violet shadow-sm">
                         <Icon size={19} />
                       </span>
-                      <span className="font-black text-ink">{tool.label}</span>
+                      <span className="min-w-0 font-black text-ink">{tool.label}</span>
                     </div>
                     <span className="font-black text-magenta">{tool.value}</span>
                   </div>

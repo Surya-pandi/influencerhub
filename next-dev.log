@@ -5,3 +5,313 @@
 
  ✓ Starting...
  ✓ Ready in 3.2s
+   Reload env: .env.local
+   Reload env: .env.local
+ ○ Compiling / ...
+ ✓ Compiled / in 10.6s (1667 modules)
+ GET / 200 in 13280ms
+ GET / 200 in 415ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 724ms (945 modules)
+ GET /icon.svg?6c05b5420d1d9d23 200 in 888ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 1048ms (1691 modules)
+ GET /about 200 in 1642ms
+ ○ Compiling /influencers ...
+ ✓ Compiled /influencers in 637ms (1689 modules)
+ GET /influencers 200 in 1271ms
+ ○ Compiling /categories ...
+ ✓ Compiled /categories in 525ms (1693 modules)
+ GET /categories 200 in 881ms
+ ○ Compiling /pricing ...
+ ✓ Compiled /pricing in 828ms (1701 modules)
+ GET /pricing 200 in 1283ms
+ ○ Compiling /checkout ...
+ ✓ Compiled /checkout in 1067ms (1705 modules)
+ GET /checkout?plan=brand-pro 200 in 1419ms
+ ○ Compiling /support ...
+ ✓ Compiled /support in 889ms (1711 modules)
+ GET /support 200 in 1220ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 1111ms (1730 modules)
+ GET /contact 200 in 1473ms
+ ○ Compiling /creator-guide ...
+ ✓ Compiled /creator-guide in 572ms (1735 modules)
+ GET /creator-guide 200 in 850ms
+ ○ Compiling /brand-playbook ...
+ ✓ Compiled /brand-playbook in 664ms (1738 modules)
+ GET /brand-playbook 200 in 1000ms
+ ○ Compiling /campaign-tools ...
+ ✓ Compiled /campaign-tools in 534ms (1743 modules)
+ GET /campaign-tools 200 in 805ms
+ ○ Compiling /api-docs ...
+ ✓ Compiled /api-docs in 583ms (1749 modules)
+ GET /api-docs 200 in 888ms
+ ○ Compiling /privacy ...
+ ✓ Compiled /privacy in 531ms (1753 modules)
+ GET /privacy 200 in 906ms
+ ○ Compiling /terms ...
+ ✓ Compiled /terms in 597ms (1758 modules)
+ GET /terms 200 in 872ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 1184ms (1778 modules)
+ GET /login 200 in 1498ms
+ ○ Compiling /register ...
+ ✓ Compiled /register in 680ms (1783 modules)
+ GET /register 200 in 962ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 686ms (1787 modules)
+ GET /dashboard 200 in 996ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 737ms (1793 modules)
+ GET /admin 200 in 1070ms
+ GET / 200 in 473ms
+ GET /about 200 in 227ms
+ GET /influencers 200 in 179ms
+ GET /categories 200 in 226ms
+ GET /pricing 200 in 190ms
+ GET /checkout?plan=brand-pro 200 in 159ms
+ GET /support 200 in 172ms
+ GET /contact 200 in 164ms
+ GET /creator-guide 200 in 155ms
+ GET /brand-playbook 200 in 166ms
+ GET /campaign-tools 200 in 162ms
+ GET /api-docs 200 in 169ms
+ GET /privacy 200 in 187ms
+ GET /terms 200 in 175ms
+ GET /login 200 in 214ms
+ GET /register 200 in 139ms
+ GET /dashboard 200 in 173ms
+ GET /admin 200 in 162ms
+ GET / 200 in 361ms
+ GET /about 200 in 165ms
+ GET /influencers 200 in 155ms
+ GET /categories 200 in 211ms
+ GET /pricing 200 in 190ms
+ GET /checkout?plan=brand-pro 200 in 171ms
+ GET /support 200 in 165ms
+ GET /contact 200 in 391ms
+ GET /creator-guide 200 in 334ms
+ GET /brand-playbook 200 in 155ms
+ GET /campaign-tools 200 in 138ms
+ GET /api-docs 200 in 155ms
+ GET /privacy 200 in 153ms
+ GET /terms 200 in 145ms
+ GET /login 200 in 144ms
+ GET /register 200 in 157ms
+ GET /dashboard 200 in 168ms
+ GET /admin 200 in 133ms
+ GET / 200 in 291ms
+ GET /about 200 in 205ms
+ GET /influencers 200 in 107ms
+ GET /categories 200 in 278ms
+ GET /pricing 200 in 179ms
+ GET /checkout?plan=brand-pro 200 in 134ms
+ GET /support 200 in 169ms
+ GET /contact 200 in 152ms
+ GET /creator-guide 200 in 159ms
+ GET /brand-playbook 200 in 161ms
+ GET /campaign-tools 200 in 152ms
+ GET /api-docs 200 in 203ms
+ GET /privacy 200 in 245ms
+ GET /terms 200 in 217ms
+ GET /login 200 in 192ms
+ GET /register 200 in 158ms
+ GET /dashboard 200 in 296ms
+ GET /admin 200 in 154ms
+ GET / 200 in 311ms
+ GET /about 200 in 194ms
+ GET /influencers 200 in 152ms
+ GET /categories 200 in 241ms
+ GET /pricing 200 in 190ms
+ GET /checkout?plan=brand-pro 200 in 142ms
+ GET /support 200 in 147ms
+ GET /contact 200 in 157ms
+ GET /creator-guide 200 in 153ms
+ GET /brand-playbook 200 in 169ms
+ GET /campaign-tools 200 in 152ms
+ GET /api-docs 200 in 211ms
+ GET /privacy 200 in 156ms
+ GET /terms 200 in 195ms
+ GET /login 200 in 161ms
+ GET /register 200 in 163ms
+ GET /dashboard 200 in 190ms
+ GET /admin 200 in 151ms
+ ✓ Compiled in 1888ms (1248 modules)
+ ✓ Compiled in 285ms (760 modules)
+ ✓ Compiled in 1871ms (1223 modules)
+ ✓ Compiled in 258ms (760 modules)
+ ✓ Compiled in 211ms (760 modules)
+ ✓ Compiled in 527ms (1217 modules)
+ ✓ Compiled in 625ms (760 modules)
+ ✓ Compiled in 747ms (1217 modules)
+ ✓ Compiled in 328ms (760 modules)
+ ✓ Compiled in 634ms (1217 modules)
+ ✓ Compiled in 376ms (760 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 2.7s (965 modules)
+ GET / 200 in 4424ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 1263ms (968 modules)
+ ✓ Compiled in 1ms (985 modules)
+ ✓ Compiled in 0ms (985 modules)
+ ✓ Compiled in 0ms (985 modules)
+ GET / 200 in 2098ms
+ GET /icon.svg?6c05b5420d1d9d23 200 in 3418ms
+ GET /about 200 in 3893ms
+ ○ Compiling /influencers ...
+ ✓ Compiled /influencers in 780ms (993 modules)
+ ✓ Compiled in 1ms (993 modules)
+ ✓ Compiled in 2ms (993 modules)
+ ✓ Compiled in 1ms (993 modules)
+ GET /icon.svg?6c05b5420d1d9d23 200 in 2590ms
+ GET /about 200 in 2186ms
+ GET /influencers 200 in 3423ms
+ ○ Compiling /categories ...
+ ✓ Compiled /categories in 669ms (997 modules)
+ GET /categories 200 in 1548ms
+ ○ Compiling /pricing ...
+ ✓ Compiled /pricing in 610ms (999 modules)
+ GET /pricing 200 in 1343ms
+ ○ Compiling /checkout ...
+ ✓ Compiled /checkout in 521ms (1002 modules)
+ GET /checkout?plan=brand-pro 200 in 978ms
+ ○ Compiling /support ...
+ ✓ Compiled /support in 864ms (1008 modules)
+ GET /support 200 in 1371ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 747ms (1020 modules)
+ GET /contact 200 in 1393ms
+ GET /creator-guide 200 in 218ms
+ ○ Compiling /brand-playbook ...
+ ✓ Compiled /brand-playbook in 542ms (1023 modules)
+ GET /brand-playbook 200 in 1028ms
+ ○ Compiling /campaign-tools ...
+ ✓ Compiled /campaign-tools in 573ms (1026 modules)
+ GET /campaign-tools 200 in 1154ms
+ ○ Compiling /api-docs ...
+ ✓ Compiled /api-docs in 616ms (1032 modules)
+ GET /api-docs 200 in 1320ms
+ ○ Compiling /privacy ...
+ ✓ Compiled /privacy in 1346ms (1036 modules)
+ GET /privacy 200 in 2116ms
+ ○ Compiling /terms ...
+ ✓ Compiled /terms in 854ms (1041 modules)
+ GET /terms 200 in 1358ms
+ GET /login 200 in 324ms
+ GET /register 200 in 355ms
+ GET /dashboard 200 in 332ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 836ms (1047 modules)
+ GET /admin 200 in 1401ms
+ GET / 200 in 754ms
+ GET /about 200 in 576ms
+ GET /influencers 200 in 331ms
+ GET /categories 200 in 595ms
+ GET /pricing 200 in 475ms
+ GET /checkout?plan=brand-pro 200 in 309ms
+ GET /support 200 in 334ms
+ GET /contact 200 in 319ms
+ GET /creator-guide 200 in 308ms
+ GET /brand-playbook 200 in 326ms
+ GET /campaign-tools 200 in 312ms
+ GET /api-docs 200 in 313ms
+ GET /privacy 200 in 405ms
+ GET /terms 200 in 326ms
+ GET /login 200 in 360ms
+ GET /register 200 in 353ms
+ GET /dashboard 200 in 652ms
+ GET /admin 200 in 365ms
+ GET / 200 in 647ms
+ GET /about 200 in 487ms
+ GET /influencers 200 in 391ms
+ GET /categories 200 in 382ms
+ GET /pricing 200 in 390ms
+ GET /checkout?plan=brand-pro 200 in 299ms
+ GET /support 200 in 263ms
+ GET /contact 200 in 284ms
+ GET /creator-guide 200 in 285ms
+ GET /brand-playbook 200 in 356ms
+ GET /campaign-tools 200 in 274ms
+ GET /api-docs 200 in 276ms
+ GET /privacy 200 in 231ms
+ GET /terms 200 in 179ms
+ GET /login 200 in 453ms
+ GET /register 200 in 291ms
+ GET /dashboard 200 in 227ms
+ GET /admin 200 in 163ms
+ GET / 200 in 324ms
+ GET /about 200 in 201ms
+ GET /influencers 200 in 181ms
+ GET /categories 200 in 234ms
+ GET /pricing 200 in 638ms
+ GET /checkout?plan=brand-pro 200 in 183ms
+ GET /support 200 in 161ms
+ GET /contact 200 in 200ms
+ GET /creator-guide 200 in 176ms
+ GET /brand-playbook 200 in 191ms
+ GET /campaign-tools 200 in 160ms
+ GET /api-docs 200 in 193ms
+ GET /privacy 200 in 215ms
+ GET /terms 200 in 213ms
+ GET /login 200 in 187ms
+ GET /register 200 in 201ms
+ GET /dashboard 200 in 199ms
+ GET /admin 200 in 165ms
+ GET / 200 in 522ms
+ GET /about 200 in 228ms
+ GET /influencers 200 in 181ms
+ GET /categories 200 in 260ms
+ GET /pricing 200 in 226ms
+ GET /checkout?plan=brand-pro 200 in 174ms
+ GET /support 200 in 178ms
+ GET /contact 200 in 223ms
+ GET /creator-guide 200 in 165ms
+ GET /brand-playbook 200 in 163ms
+ GET /campaign-tools 200 in 196ms
+ GET /api-docs 200 in 167ms
+ GET /privacy 200 in 156ms
+ GET /terms 200 in 172ms
+ GET /login 200 in 186ms
+ GET /register 200 in 175ms
+ GET /dashboard 200 in 326ms
+ GET /admin 200 in 174ms
+ GET / 200 in 331ms
+ GET /about 200 in 318ms
+ GET /influencers 200 in 376ms
+ GET /categories 200 in 411ms
+ GET /pricing 200 in 542ms
+ GET /checkout?plan=brand-pro 200 in 292ms
+ GET /support 200 in 348ms
+ GET /contact 200 in 322ms
+ GET /creator-guide 200 in 290ms
+ GET /brand-playbook 200 in 248ms
+ GET /campaign-tools 200 in 219ms
+ GET /api-docs 200 in 163ms
+ GET /privacy 200 in 221ms
+ GET /terms 200 in 196ms
+ GET /login 200 in 177ms
+ GET /register 200 in 204ms
+ GET /dashboard 200 in 270ms
+ GET /admin 200 in 184ms
+ GET / 200 in 404ms
+ GET /icon.svg?6c05b5420d1d9d23 200 in 52ms
+ GET /register 200 in 207ms
+ GET /contact 200 in 215ms
+ GET /dashboard 200 in 222ms
+ ✓ Compiled in 1548ms (1755 modules)
+ GET / 200 in 975ms
+ GET /contact 200 in 186ms
+ GET /register 200 in 229ms
+ GET /dashboard 200 in 194ms
+ ✓ Compiled /support in 458ms (983 modules)
+ GET /support 200 in 998ms
+ ○ Compiling /api/contact ...
+ ✓ Compiled /api/contact in 1945ms (1820 modules)
+ POST /api/contact 503 in 2187ms
+ GET /contact 200 in 744ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 751ms (1061 modules)
+ GET /icon.svg?6c05b5420d1d9d23 200 in 923ms
+ GET /contact 200 in 1053ms
+ GET /icon.svg?6c05b5420d1d9d23 200 in 18ms

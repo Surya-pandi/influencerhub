@@ -22,8 +22,8 @@ export default function SupportPage() {
           {topics.map((topic) => {
             const Icon = topic.icon;
             return (
-              <article key={topic.title} className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
-                <span className="grid h-12 w-12 place-items-center rounded-md bg-pink-50 text-magenta">
+              <article key={topic.title} className="min-w-0 rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+                <span className="grid h-12 w-12 shrink-0 place-items-center rounded-md bg-pink-50 text-magenta">
                   <Icon size={21} />
                 </span>
                 <h2 className="mt-6 text-2xl font-black text-ink">{topic.title}</h2>
@@ -38,7 +38,7 @@ export default function SupportPage() {
               <h2 className="text-2xl font-black text-ink">Need direct support?</h2>
               <p className="mt-2 text-sm leading-6 text-slate-600">Send us a message and we will help route your request.</p>
             </div>
-            <Link href="/contact" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-hub-gradient px-5 text-sm font-bold text-white">
+            <Link href="/contact" className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-md bg-hub-gradient px-5 text-sm font-bold text-white sm:w-auto">
               <Mail size={16} />
               Contact support
             </Link>

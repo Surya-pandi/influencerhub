@@ -22,7 +22,7 @@ export default async function CheckoutPage({ searchParams }: { searchParams: Pro
             Review your selected plan before connecting live Stripe checkout.
           </p>
         </div>
-        <article className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
+        <article className="min-w-0 rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
           <span className="grid h-12 w-12 place-items-center rounded-md bg-hub-gradient text-white">
             <CreditCard size={22} />
           </span>
@@ -50,10 +50,10 @@ export default async function CheckoutPage({ searchParams }: { searchParams: Pro
             </p>
           </div>
           <div className="mt-7 flex flex-wrap gap-3">
-            <Link href="/pricing" className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-200 bg-white px-5 text-sm font-bold text-ink">
+            <Link href="/pricing" className="inline-flex min-h-11 w-full items-center justify-center rounded-md border border-slate-200 bg-white px-5 text-sm font-bold text-ink sm:w-auto">
               Change plan
             </Link>
-            <Link href="/support" className="inline-flex min-h-11 items-center justify-center rounded-md bg-hub-gradient px-5 text-sm font-bold text-white">
+            <Link href="/support" className="inline-flex min-h-11 w-full items-center justify-center rounded-md bg-hub-gradient px-5 text-sm font-bold text-white sm:w-auto">
               Get checkout support
             </Link>
           </div>
